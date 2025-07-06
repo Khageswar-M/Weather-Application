@@ -10,7 +10,8 @@ body{
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background: linear-gradient(120deg,rgba(160, 44, 44, 0.89), rgba(0, 0, 255, 0.469));
+    /* background: linear-gradient(120deg,rgba(160, 44, 44, 0.89), rgba(0, 0, 255, 0.469)); */
+    background: linear-gradient(120deg,rgba(0, 0, 0, 0.852), rgba(0, 0, 255, 0.811));
     margin-top: 30px;
 }
 form{
@@ -103,6 +104,7 @@ button[type="submit"]:active {
 .weatherEmoji{
     font-size: 100px;
     margin: 0px;
+    margin-bottom: 15px;
 }
 .errorMsg{
     font-size: 2rem;
