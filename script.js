@@ -28,7 +28,6 @@ async function getWeatherData(city){
     if(!response.ok){
         throw new Error("Could not fetch weather data");
     }
-    // console.log(response.json());
     return await response.json();
 }
 
