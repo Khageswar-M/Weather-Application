@@ -10,7 +10,8 @@ body{
     flex-direction: column;
     height: 100vh;
     width: 100%;
-    background-color: #5a5a5a54;
+    background: linear-gradient(120deg,rgba(160, 44, 44, 0.89), rgba(0, 0, 255, 0.469));
+    margin-top: 30px;
 }
 form{
     text-align: center;
@@ -20,11 +21,16 @@ form{
     font-size: 2rem;
     font-family: Arial, sans-serif;
     border: 2px solid hsla(0, 0%, 0%, 0.722);
-    color: hsla(0, 0%, 0%, 0.913);
+    color: white;
     font-weight: bold;
     border-radius: 10px;
     width: 300px;
     padding: 5px;
+    background-color: rgba(0, 0, 0, 0.187);
+    
+}
+.getCity::placeholder{
+    color: hsla(0, 0%, 0%, 0.527);
 }
 
 button[type="submit"] {
@@ -36,20 +42,22 @@ button[type="submit"] {
     text-align: center;
     border-radius: 10px;
     border: none;
-    background-color: rgba(25, 169, 25, 0.835);
+    background: linear-gradient(120deg,rgba(0, 0, 255, 0.8),rgba(0, 128, 0, 0.679));
     color: white;
+    cursor: pointer;
 }
 
 button[type="submit"]:hover {
-    background-color: rgba(26, 156, 26, 0.935);
+    background-color: hsla(240, 100%, 50%, 0.736);
+    transition: background-color 1s;
 }
 
 button[type="submit"]:active {
-    background-color: rgb(22, 132, 22);
+    color: rgb(130, 130, 130);
 }
 
 .card {
-    background: linear-gradient(180deg, rgba(58, 58, 228, 0.686), rgba(255, 140, 0, 0.811));
+    background: linear-gradient(180deg, rgb(58, 58, 228), rgba(255, 140, 0, 0.811));
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -57,7 +65,15 @@ button[type="submit"]:active {
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 10px;
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.495);
+    margin-top: 15px;
+    
+
+}
+.card:hover{
+    background-color: blue;
+    box-shadow: 3px 5px 10px rgba(255, 250, 250, 0.495);
+    cursor: default;
+    transition: 1s;
 }
 .cityName{
     font-size: 2rem;
