@@ -62,16 +62,20 @@ button[type="submit"]:active {
 .cityName{
     font-size: 2rem;
     color: rgba(0, 0, 0, 0.683);
+    padding: 10px;
 }
 .temp{
     font-size: 2rem;
     margin: 0;
-    color: rgba(0, 0, 0, 0.725);
+    color: rgba(0, 0, 0, 0.772);
+    padding: 10px;
+    font-weight: bold;
 }
 .humidity{
     font-size: 1rem;
     color: hsla(0, 0%, 0%, 0.861);
     font-weight: bold;
+    margin-bottom: 15px;
 }
 .description{
     font-size: 1.5rem;
